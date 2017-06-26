@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		34177D8D1F01A55A006D66CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34177D8C1F01A55A006D66CF /* AppDelegate.swift */; };
-		34177D8F1F01A55A006D66CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34177D8E1F01A55A006D66CF /* ViewController.swift */; };
+		34177D8F1F01A55A006D66CF /* AnimationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34177D8E1F01A55A006D66CF /* AnimationsViewController.swift */; };
 		34177D921F01A55A006D66CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34177D901F01A55A006D66CF /* Main.storyboard */; };
 		34177D941F01A55A006D66CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34177D931F01A55A006D66CF /* Assets.xcassets */; };
 		34177D971F01A55A006D66CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34177D951F01A55A006D66CF /* LaunchScreen.storyboard */; };
+		34177D9F1F01CD50006D66CF /* ImageViewAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34177D9E1F01CD50006D66CF /* ImageViewAnimations.swift */; };
+		34177DA11F01CD78006D66CF /* ButtonAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34177DA01F01CD78006D66CF /* ButtonAnimations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		34177D891F01A55A006D66CF /* AnimationTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34177D8C1F01A55A006D66CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		34177D8E1F01A55A006D66CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34177D8E1F01A55A006D66CF /* AnimationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsViewController.swift; sourceTree = "<group>"; };
 		34177D911F01A55A006D66CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34177D931F01A55A006D66CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34177D961F01A55A006D66CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34177D981F01A55A006D66CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34177D9E1F01CD50006D66CF /* ImageViewAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewAnimations.swift; sourceTree = "<group>"; };
+		34177DA01F01CD78006D66CF /* ButtonAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAnimations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				34177D8C1F01A55A006D66CF /* AppDelegate.swift */,
-				34177D8E1F01A55A006D66CF /* ViewController.swift */,
+				34177D8E1F01A55A006D66CF /* AnimationsViewController.swift */,
+				34177D9E1F01CD50006D66CF /* ImageViewAnimations.swift */,
+				34177DA01F01CD78006D66CF /* ButtonAnimations.swift */,
 				34177D901F01A55A006D66CF /* Main.storyboard */,
 				34177D931F01A55A006D66CF /* Assets.xcassets */,
 				34177D951F01A55A006D66CF /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34177D8F1F01A55A006D66CF /* ViewController.swift in Sources */,
+				34177DA11F01CD78006D66CF /* ButtonAnimations.swift in Sources */,
+				34177D8F1F01A55A006D66CF /* AnimationsViewController.swift in Sources */,
 				34177D8D1F01A55A006D66CF /* AppDelegate.swift in Sources */,
+				34177D9F1F01CD50006D66CF /* ImageViewAnimations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
