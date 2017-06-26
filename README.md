@@ -2,7 +2,7 @@
 
 Test Animations is a simple project that allows you to see all kinds of basic UIView animations (as well as a couple of UIImageView and UIButton methods), in code and running in the simulator, and play around with them in a test environment.
 
-The animations are as outlined in Matt Neuberg's "Programming iOS 10: Deep Dive inot Views, View Controllers, and Frameworks"
+The animations are as outlined in Matt Neuberg's "Programming iOS 10: Deep Dive into Views, View Controllers, and Frameworks"
 
 ## Install
 
